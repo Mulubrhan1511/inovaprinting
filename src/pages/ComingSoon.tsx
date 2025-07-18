@@ -51,7 +51,7 @@ const ComingSoon = () => {
           </h1>
 
           <p className="text-base text-gray-500 mb-9 dark:text-gray-400">
-            Our website is currently under construction, enter your email id to
+            Our website is currently under construction, enter your email  to
             get the latest updates and notifications about the website.
           </p>
 
