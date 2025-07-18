@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Breadcrumb from '../components/Breadcrumbs/Breadcrumb';
+import img1 from '../../src/images/logo.png'
 
 const ComingSoon = () => {
   const calculateTimeLeft = () => {
@@ -42,8 +43,9 @@ const ComingSoon = () => {
 
         <div className="mx-auto w-full max-w-[460px] text-center">
           <a href="/" className="inline-block mb-6">
-            <img className="dark:hidden" src="src/images/logo/logo.svg" alt="Logo" />
-            <img className="hidden dark:block" src="src/images/logo/logo-dark.svg" alt="Logo" />
+            {/* <img className="dark:hidden" src="src/images/logo/logo.svg" alt="Logo" />
+            <img className="hidden dark:block" src="src/images/logo/logo-dark.svg" alt="Logo" /> */}
+            <img className="w-90 h-30" src={img1} alt="Logo" />
           </a>
 
           <h1 className="mb-3 font-bold text-gray-800 text-3xl dark:text-white/90 xl:text-4xl">
