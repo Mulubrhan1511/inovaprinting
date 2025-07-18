@@ -99,13 +99,33 @@ const ComingSoon = () => {
 
         {/* Social Links */}
         <div className="absolute bottom-6 left-1/2 -translate-x-1/2">
-          <p className="mb-6 mt-20 text-center text-base text-gray-500 dark:text-gray-400">
-            Follow Us On
-          </p>
-          <div className="flex items-center justify-center gap-5">
-            {/* Insert social link icons or components here */}
-          </div>
+            <p className="mb-6 mt-20 text-center text-base text-gray-500 dark:text-gray-400">
+                Follow Us On
+            </p>
+            <div className="flex items-center justify-center gap-5">
+                {/* Telegram */}
+                <a href="https://t.me/your_channel" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-500 dark:hover:text-white">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="currentColor" d="M9.993 16.38l-.39 4.144c.56 0 .803-.24 1.096-.528l2.63-2.503 5.46 3.978c1 .552 1.72.263 1.975-.923l3.58-16.755c.328-1.539-.56-2.144-1.52-1.77L.745 9.37c-1.5.6-1.48 1.44-.255 1.83l5.755 1.8L18.45 5.512c.648-.432 1.236-.192.75.24L9.993 16.38z"/>
+                </svg>
+                </a>
+
+                {/* Facebook */}
+                <a href="https://www.facebook.com/yourpage" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-700 dark:hover:text-white">
+                <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M22.675 0H1.326C.593 0 0 .593 0 1.326v21.348C0 23.408.593 24 1.326 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.658-4.788 1.325 0 2.466.099 2.797.143v3.24l-1.919.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.407 24 24 23.408 24 22.674V1.326C24 .593 23.407 0 22.675 0z"/>
+                </svg>
+                </a>
+
+                {/* X (Twitter) */}
+                <a href="https://x.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-black dark:hover:text-white">
+                <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M22.5 2h-3.4L12 9.2 4.9 2H1l8.4 8.4L1 22h3.4l7.1-7.5L19 22h3.4l-8.5-9L22.5 2z"/>
+                </svg>
+                </a>
+            </div>
         </div>
+
       </div>
     </div>
   );
